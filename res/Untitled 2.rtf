@@ -1,0 +1,106 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red42\green0\blue255;\red127\green0\blue85;\red106\green62\blue62;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 1.a) 1400\
+1.b) 2.5M and 11148\
+1. c) 11148, 1, 686\
+\
+2.a) 2 mins\
+2.b) 934kb\
+2.c) 934kb/5.7Mb\
+\
+We need to place the  \'91
+\f1\fs22 \cf2 cran.all.1400.txt
+\f0\fs24 \cf0 \'92  in path \'91./res\'92 \
+A folder named \'93Documents\'94 required to be created under the same path.\
+\
+Posting list is going to be created under the same path.\
+\
+In First Phase We have split the files the then we tokenised it with the help of stop word and stemmer.\
+Once we have tokenised the term then read all term with their frequency and hold value of document id in the Array list as posting list.\
+\
+In the second phase, we need to create Term Frequency matrix and Inverse Document Frequency matrix. For term frequency we need to ply the formula (Log(TotalNumberOfDoctument/TotalNumberOfEachWord). TotalNumberOfDoctument =  1400 and TotalNumberOfEachWord = Length of the posting List.\
+For IDF, every row represent the document and every column represent term.\
+If the term is found in the document is represented by the its frequency it has appeared. \
+\
+For TF-IDF, We have multiplied, TF matrix and IDF matrix.\
+Length of the document is found by each row from TF-IDF matrix\
+\
+Now query is taken from User and its being treated as query document. \
+query document has to go through phase 1 and TF-IDF is also required to created for it and its length.\
+\
+For ranking we need to take dot product of each document and query document. \
+hence cosine similarity is higher for most relevant document.\
+\
+ SUBMITTED BY-\
+\pard\pardeftab720\ri380\sl259\slmult1\sa160
+\cf0 AKSHIT KUMAR CHAUDHARY (U00753179)\
+FNU PRANAV (U00779277)\
+RAM KUMAR PULAPAKA (U00779137)
+\b\fs32 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\b0\fs24 \cf0 \
+\
+\
+inside Class \'91
+\f1\fs22 FileSpliting
+\f0\fs24 \'92\
+\pard\pardeftab720
+
+\f1\fs22 \cf3 class\cf0  FileSpliting \{\
+	\cf3 public\cf0  \cf3 void\cf0  split()\{\
+		String \cf4 path\cf0  = \cf2 ".//res//"\cf0 ;\
+\
+\
+skip pointer-t\
+phrasal query-t\
+positional index-t\
+b trees\
+wild card\
+permuterm index\
+levenshtein distance- ok\
+\
+front coding-t\
+map reduce - ok\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+AWN Bluetooth\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+topology creation didn\'92t get much attention.\
+\
+because of all ad hoc networks build on single channel broadcast based wireless media such as 802.11 or IR Lans\
+\
+\
+Bluetooth is defined \
+based o frequency hopping physical layer\
+discussed, the sync problem\
+\
+\
+using bluetooth as examples\
+explaining issue in the freq hopping wireless system\
+\
+paper Review and Critique\
+\
+Name\
+student id\
+assignment number\
+email adress\
+\
+paper review\
+\
+actually\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
